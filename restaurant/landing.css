@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+background:url(./rest2.jpg);
+background-repeat: no-repeat;
+background-size: 100vw 75vh;
+}
+
+h1{
+text-transform: capitalize;
+color: white;
+font-size: 80px;
+padding-top: 20px;
+padding-left: 250px;
+width: 100%;
+}
+
+.grand{
+padding-left: 90px;
+color: rgb(127, 199, 215);
+}
+
+button{
+cursor: pointer;
+border-radius: 5px;
+padding: 7px 15px;
+}
+
+button:hover{
+background-color:green;
+}
+
+#b1{
+margin-left: 200px;
+}
+
+#b2{
+margin-left: 30px;
+}
+
+nav{
+    background-color: blanchedalmond;
+    height: 30px;
+}
+
+a{
+    padding-left: 20px;
+    text-decoration: none;
+    color:darkgoldenrod;
+}
+
+#a1{
+    padding-right: 1000px;
+}
+
+.card{
+    width: 100px;
+    height: 300px;
+    border: 2px sold black;
+    background-color: rgb(142, 137, 137);
+}
+
+div img{
+    padding-top: 25vh;
+    width: 100px;
+    height: 100px;
+}

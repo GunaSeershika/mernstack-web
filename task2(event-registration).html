@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>AVISHKAR Registration Form</h1>
+    <form>
+        <fieldset>
+            <br>
+            <fieldset>
+                <br>
+                <legend>Personal details</legend>
+
+                <label for="">Name</label>
+                <input type="text" placeholder="first name" required>&nbsp;
+                <input type="text" placeholder="middle name">&nbsp;
+                <input type="text" placeholder="last name"><br><br>
+
+                <label for="phn">Mobile number</label>
+                <input type="tel" id="phn"><br><br>
+
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail"><br><br>
+
+                <p>Are you AITAM student</p>
+                <input type="radio" name="aitam">Yes
+                <input type="radio" name="aitam">No
+                <br><br>
+                <fieldset>
+                    <legend>AITAM Students</legend>
+                    <label for="yr">Year</label>&nbsp;
+                    <select id="yr">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                    <br><br>
+                    <label>Branch</label>
+                    <select>
+                        <optgroup label="B.Tech">
+                            <option>CSE</option>
+                            <option>ECE</option>
+                            <option>IT</option>
+                            <option>CSD</option>
+                            <option>CSM</option>
+                            <option>EEE</option>
+                            <option>MECH</option>
+                            <option>CIVIL</option>
+                        </optgroup>
+                        <optgroup label="Other">
+                            <option>M.Tech</option>
+                            <option>MBA</option>
+                            <option>Diploma</option>
+                        </optgroup>
+                    </select><br><br>
+                    <label for="roll">Roll Number</label>
+                    <input type="text" id="roll"><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Other Students</legend>
+                    <label>College Name</label>
+                    <input type="text"><br><br>
+                    <label>Location</label>
+                    <input type="text" list="location">
+                    <datalist id="location">
+                        <option>Srikakulam</option>
+                        <option>Vijayanagaram</option>
+                        <option>Vishakapatnam</option>
+                        <option>Kakinada</option>
+                        <option>Hyderabad</option>
+                    </datalist><br>
+                    <p>How did you know about this event</p>
+                    <input type="checkbox">Friends
+                    <input type="checkbox">Linkedln
+                    <input type="checkbox">Youtube
+                    <input type="checkbox">Official Website
+                </fieldset>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Participation</legend>
+                <p>Are you intrested to be a volunteer in this event</p>
+                <input type="radio" name="vol">Yes
+                <input type="radio" name="vol">No
+                <p>You want to register in:</p>
+                <input type="checkbox">Go Karting<br>
+                <input type="checkbox">Hackathon<br>
+                <input type="checkbox">Workshops<br>
+                <input type="checkbox">Culturals<br><br>
+                <label>Did you participate in any past events of AITAM</label><br>
+                <input type="radio" name="ans">Yes
+                <input type="radio" name="ans">No<br><br>
+                <label>Share your feedback</label><br>
+                <textarea rows="6" cols="40"></textarea><br><br>
+                <label>How was your experience?</label><br>
+                <input type="range">
+            </fieldset>
+            <br>
+            <fieldset>
+                <em>Any event participation fee is 100/-</em><br><br>
+                <legend>Payment</legend>
+                <label>Payment screenshot</label>
+                <input type="file" required>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Preferences</legend>
+                <label>Lunch preferences</label>
+                <select id="menu">
+                    <optgroup label="non-veg">
+                        <option>chicken biryani</option>
+                        <option>chicken noodles</option>
+                        <option>egg fried rice</option>
+                    </optgroup>
+                    <optgroup label="veg">
+                        <option>veg pulav</option>
+                        <option>meals</option>
+                        <option>nans</option>
+                    </optgroup>
+                </select><br><br>
+                <label for="sh">preferred Slot</label>
+                <select id="sh">
+                <option value="fn">FN</option>
+                <option value="an">AN</option>
+            </select>
+            </fieldset>
+            <br>
+            <input type="checkbox">I hereby declare that I read and understood the terms and conditions
+        <br><br>
+        <input type="submit">&nbsp;
+        <input type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>

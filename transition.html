@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(138, 220, 237);
+        }
+
+        .child{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            
+        }
+        .child:hover{
+            background-color: brown; 
+            transition: background-color 2s;
+            transition: transform 2s;
+            transform:rotate(180deg);
+        }
+        .parent:hover{
+            width:500px;
+            height: 600px;
+            transition: width 1s,height 2s;
+        }
+
+        button{
+            background-color: chartreuse;
+        }
+        button:hover{
+            background-color: darksalmon;
+            transition: background-color 2s;
+            /* font-size: 20px; */
+            border-radius: 10px;
+            transition: all 3s;
+            transform: translate(300px) scale(1.6) rotate3d(1,4,1,60deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+
+        </div>
+    </div>
+    <br><br><br><br>
+    <button>hover me</button>
+</body>
+</html>

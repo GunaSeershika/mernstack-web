@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* child selector
+        div>p{
+            color: blue;
+    } */
+
+        /* descendent selector */
+        div p{
+            color:blue;
+        }
+
+    /* adjacent selector */
+    h1+p{
+        text-align: center;
+    }
+
+    h1+p+p+p{
+        text-align: right;
+    }
+
+    /* general selector */
+    h1~p{
+        text-transform: uppercase;
+    }
+
+    /* group selector */
+    h2,h3{
+            color: tomato;
+    }
+
+    li:nth-child(even)
+    {
+        color: purple;
+    }
+
+    [placeholder]{
+        color: pink;
+        /* background-color: black; */
+    }
+
+    input[type="text"]{
+        border: 6px;
+        border:5px solid yellow;
+    }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <p>div-p</p>
+       <span>
+            <p>span-p</p>
+       </span>
+    </div>
+
+    <h1>heading1</h1>
+    <h1>heading 2</h1>
+    <p>para1</p>
+    <p>para2</p>
+    <p>para3</p>
+    <h2>head2</h2>
+    <h3>head3</h3>
+
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ol>
+
+    <form>
+        <input type="text" placeholder="enter name">
+    </form>
+</body>
+</html>

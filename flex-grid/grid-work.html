@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(208, 200, 200);
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            height: 100vh;
+        }
+        .parent{
+            width:600px;
+            height: 500px;
+            background-color: rgb(245, 245, 245);
+
+            display: grid;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            grid-template-rows:repeat(2,200px);
+            grid-template-columns: repeat(3,150px);
+          
+            
+        }
+        .box{
+            background-color: rgb(176, 246, 248);
+            display: grid;
+            justify-content: space-evenly;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .box img{
+            width: 120px;
+            height: 100px;
+            margin-top: 12px;
+        }
+
+        @media(max-width:600px)
+        {
+            body{
+                background-color: rgb(87, 249, 249);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box"><img src="flex-grid/wallpaper.jpg" alt="">Product 1<br><br>$10.99</div>
+        <div class="box"><img src="flex-grid/wallpaper.jpg" alt="">Product 2<br><br>$10.99</div>
+        <div class="box"><img src="flex-grid/wallpaper.jpg" alt="">Product 3<br><br>$10.99</div>
+        <div class="box"><img src="flex-grid/wallpaper.jpg" alt="">Product 4<br><br>$10.99</div>
+        <div class="box"><img src="flex-grid/wallpaper.jpg" alt="">Product 5<br><br>$10.99</div>
+        <div class="box"><img src="flex-grid/wallpaper.jpg" alt="">Product 6<br><br>$10.99</div>
+    </div>
+</body>
+</html>

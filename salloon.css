@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+nav{
+    background-color:rgb(48, 207, 127);
+    height: 35px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: 35px;
+    align-items: center;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.page1{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.page1 h1{
+    font-size: 50px;
+}
+
+.page1 button{
+    padding: 10px 25px;
+}

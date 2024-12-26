@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit.html" method="post">
+        <h1>Exam Registration form</h1>
+        <fieldset>
+            <br>
+        <fieldset>
+            <legend>Personal details</legend><br>
+            <label for="fname">Name</label>
+            <input type="text" id="fname" placeholder="enter first name" required>
+            <input type="text" placeholder="enter last name"><br><br>
+
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail" placeholder="enter yout email" required><br><br>
+
+            <label for="mobile">Mobile number</label>
+            <input type="tel" id="mobile"><br><br>
+
+            <label>Gender</label>
+            <label for="m" >Male</label>
+            <input type="radio" name="gender" id="m">
+            <label for="f" >Female</label>
+            <input type="radio" name="gender" id="f"><br><br>
+
+            <label for="dob">D.O.B</label>
+            <input type="date" name="dob"><br><br>
+            
+            <label for="addr">Address</label>
+            <textarea rows="6" cols="30"></textarea><br><br>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Preferences</legend>
+            
+            <label>Region:</label>
+            <br>
+            <input type="checkbox">Vishakapatnam<br>
+            <input type="checkbox">Vijayanagaram<br>
+            <input type="checkbox">Srikakulam<br>
+            <input type="checkbox">Tekkali<br>
+            <br><br>
+            <label for="sh">Shift</label>
+            <select id="sh">
+                <option value="fn">FN</option>
+                <option value="an">AN</option>
+            </select>
+        </fieldset>
+        <input type="checkbox">I hereby declare that I read and understood the terms and conditions
+        <br><br>
+        <label for="fee">Attach your payment screenshot</label>&nbsp;&nbsp;
+        <input type="file" id="fee" accept="img/*"><br><br>
+        <input type="submit">&nbsp;
+        <input type="reset">
+    </fieldset>
+    </form>
+</body>
+</html>

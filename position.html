@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent-rel-ex{
+            height: 500px;
+            width: 800px;
+            background-color: chartreuse;
+            border: 5px solid black;
+            /* position: relative; */
+        }
+        .child-rel-ex1{
+            background-color: cornflowerblue;
+            position: relative;
+            top:20px;
+        }
+
+        .child-abs-ex1{
+            background-color: crimson;
+            position: absolute;
+            top:20px;
+        }
+
+        .child-rel-ex1,.child-abs-ex1{
+            width: 100px;
+            height: 100px;
+            margin: 50px 10px;
+            display: inline-block;
+        }
+        .parent{
+            background-color: crimson;
+        }
+
+        .class1{
+            background-color: blueviolet;
+            z-index: 10;
+        }
+
+        .class2{
+            background-color: rgb(142, 174, 208);
+        }
+        .class1,.class2{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent-rel-ex">
+        <div class="child-rel-ex1"></div>
+        <div class="child-abs-ex1"></div>
+    </div>
+
+    <div class="parent">
+        <div class="class1"></div>
+        <div class="class2"></div>
+    </div>
+</body>
+</html>

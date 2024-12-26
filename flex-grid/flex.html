@@ -1,0 +1,55 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 200px;
+            width: 400px;
+            display: flex;
+            /* flex-direction: row-reverse; */
+            /* align-items: center; */
+            flex-wrap:wrap;
+        }
+
+        .child1{
+            width: 100px;
+            height: 100px;
+            
+        }
+        .parent2{
+            width: 400px;
+            height: 100vh;
+            margin-top: 20px;
+            background-color: rgb(136, 143, 143);
+            display: flex;
+            justify-content:start;
+
+        }
+        .child2{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1" style="background-color: coral; order: -2;">1</div>
+        <div class="child1" style="background-color: rgb(94, 209, 222); order: -1;">2</div>
+        <div class="child1" style="background-color: rgb(89, 187, 95); order: 3;">3</div>
+        <div class="child1" style="background-color: rgb(206, 90, 165);">4</div>
+        <div class="child1" style="background-color: rgb(75, 228, 202);">5</div>
+        <div class="child1" style="background-color: rgb(169, 52, 58);">6</div>
+        <div class="child1" style="background-color: rgb(192, 211, 84); order: 4;">7</div>
+    </div>
+
+    <div class="parent2">
+        <div class="child2" style="background-color: coral;">1</div>
+        <div class="child2" style="background-color: rgb(94, 209, 222); flex-shrink: 3;">2</div>
+        <div class="child2" style="background-color: rgb(89, 187, 95);">3</div>
+        
+    </div>
+</body>
+</html>

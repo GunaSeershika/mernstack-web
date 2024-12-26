@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    border-radius: 50%;
+}
+
+.bg{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUb4PHMmbOT79Ml5lLD8cV4vPpXcVfZgdURw&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: rgb(219, 214, 217);
+    height: 35px;
+    align-items: center;
+}
+nav img{
+    height: 30px;
+    width: 50px;
+    
+}
+
+nav ul{
+    display: flex;
+    gap:30px;
+    padding-right: 85px;
+}
+
+a{
+    text-decoration: none;
+     color: black;
+}
+
+
+li{
+    list-style: none;
+}
+
+.data1{
+    font-size: 60px;
+    font-family: Inter var, ui-sans-serif, system-ui, sans-serif;
+    font-weight: bolder;
+   text-align: center;
+   word-spacing: -5px;
+}
+
+.data2{
+   text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    padding: 6px;
+    font-weight: lighter;
+}
+
+.totaldata{
+    margin-top: 150px;
+ }
+
+button{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    margin-left: 400px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.blueword{
+    color: rgb(44, 135, 183);
+}
+
+input[type="search"]{
+    margin-left: 20px; 
+    padding-left: 10px; 
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+[placeholder]{
+    font-size: 20px;
+    color: black;
+}
+
+.feedback{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.girl{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.girl img{
+   height: 150px;
+   width: 150px;
+   border-radius: 10px;
+   margin-left: 70px;
+}
+
+.code img{
+  border-radius: 20px;
+
+}
+
+.totalcards{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(228, 226, 226);
+    border-radius: 15px;
+    box-shadow: 20px 10px 7px rgb(122, 118, 118);
+}
+
+.card img{
+    width:100px;
+    height:80px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.card p{
+    word-spacing: 5px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 5px;
+    line-height: 28px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+    background-color: rgb(206, 233, 237);
+    margin-top: 70px;
+}
+
+footer li:nth-child(1){
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+footer ul li{
+    padding-bottom: 5px;
+}

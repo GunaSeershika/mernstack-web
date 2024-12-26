@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button:hover{
+            color: blue;
+            background-color: cadetblue;
+        }
+        a:hover{
+            text-align: center;
+        }
+        a:visited{
+            text-align: right;
+        }
+        a:active{
+            text-transform: uppercase;
+        }
+
+        p::first-letter{
+            font-size: xx-large;
+        }
+
+        h1::after{
+            content: "seershi";
+        }
+
+        .b1:hover{
+            size: 100px;
+            background-color: chartreuse;
+        }
+
+        .b2:focus{
+            background-color: cyan;
+        }
+    </style>
+    
+</head>
+<body>
+    <button>login</button>
+    <a href="">link1</a>
+    <a href="">link2</a>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, similique?</p>
+
+    <h1>hello</h1>
+    <button class="b1">button</button>
+    <button class="b2">button</button>
+</body>
+</html>
