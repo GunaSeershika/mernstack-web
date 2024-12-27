@@ -3,9 +3,12 @@
     padding:0px;
 }
 
+
 nav{
     background-color:rgb(48, 207, 127);
     height: 35px;
+    position: fixed;
+    width:100%
 }
 
 nav ul{
@@ -29,12 +32,27 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     height:100vh;
+    color: white;
+    padd
+   
 }
 
 .page1 h1{
     font-size: 50px;
+    font-family:Bookman, URW Bookman L, serif;
 }
 
 .page1 button{
-    padding: 10px 25px;
+    padding: 10px 35px;
 }
+
+button:hover{
+    background-color: white;
+}
+
+.parent{
+     background: url("https://images.pexels.com/photos/696287/pexels-photo-696287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+  
+}
+
